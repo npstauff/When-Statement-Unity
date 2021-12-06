@@ -21,7 +21,7 @@ public class When
         
         this.executor = executor;
         
-        //Creates an obect to stasrt the coroutine
+        //Creates an object to start the coroutine
         GameObject dummyObj = new GameObject("_WhenClassDummyGameObjectForCoroutine");
         dummyObj.AddComponent<WhenDummy>().StartCoroutine(WhenCoRo());
         dummyObj.hideFlags = HideFlags.HideInHierarchy;
