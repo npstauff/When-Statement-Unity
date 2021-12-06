@@ -23,7 +23,7 @@ public class WhenExample : MonoBehaviour
 
     private void Update()
     {
-        //increase b by deltatime in order for it become greater than a
+        //increase b by deltatime in order for it to become greater than a
         b += Time.deltaTime;
         
     }
