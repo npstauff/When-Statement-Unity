@@ -1,2 +1,4 @@
 
 This asset is used for triggering code the first time the paramaters return true
+
+It means you dont need to create a boolean for each time you only want to trigger something once, but you want the check to run continuously.
