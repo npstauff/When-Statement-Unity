@@ -10,8 +10,12 @@ public class When
     private Func<bool> validator;
     private Action executor;
     
-
-    public When(Func<bool> validator, Action executor)//, Action executor, params object[] pars)
+    /// <summary>
+    /// Triggers the specified code in the execution block the first time that the paramaters return true
+    /// </summary>
+    /// <param name="validator"></param>
+    /// <param name="executor"></param>
+    public When(Func<bool> validator, Action executor)
     {
         this.validator = validator;
         
